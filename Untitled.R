@@ -1,7 +1,6 @@
 #First , I used str() function to display the database with more clearification for myself.I recommend using head() function as it’s a really good way to know a handful of data about our database.
 
 str(read.csv("/Users/behashirshekar/Downloads/top10s.csv"))
-library(tidyr)
 
 #The first thing  I want to work on is “Which artists and genres are the most popular”.
 #To do that I made a plot of songs and their popularity.
